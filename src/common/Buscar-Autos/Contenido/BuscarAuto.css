@@ -1,0 +1,26 @@
+.w980 {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.port-wrap-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  width: 60%;
+}
+
+.col2 {
+  width: 40%;
+}
+
+.fl-lf {
+  float: left;
+}
+
+.fl-rt {
+  float: right;
+}
+

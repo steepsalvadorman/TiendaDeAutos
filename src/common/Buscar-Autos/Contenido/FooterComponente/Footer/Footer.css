@@ -1,0 +1,54 @@
+.footer-container {
+  background-color: #000; /* Color de fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+.footer-container a {
+  color: #fff; /* Enlaces en blanco */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.footer-container a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.footer-container .my-4 {
+  margin: 20px 0;
+}
+
+.footer-container .my-3 {
+  margin: 15px 0;
+}
+
+.footer-container .text-center {
+  text-align: center;
+}
+
+.footer-container .d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container .mx-2 {
+  margin: 0 10px;
+}
+
+.footer-container img {
+  max-height: 50px; /* Ajusta el tamaño de las imágenes según sea necesario */
+}
+
+.secure-purchases {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secure-purchases p {
+  margin-right: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.small-logo{
+    width: 86px;
+    height: 20px;
+    margin: 0px;
+}

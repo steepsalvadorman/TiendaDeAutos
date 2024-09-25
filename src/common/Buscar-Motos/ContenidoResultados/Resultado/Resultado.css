@@ -1,0 +1,98 @@
+.resultado-card {
+   border: 1px solid #ddd;
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.resultado-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.nuevo-badge {
+   background-color: #0254d0d5;
+   font-weight: bold;
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+   margin-left: 20px;
+   font-size: 70%;
+   letter-spacing: 2px;
+   
+}
+
+.resultado-info .ubicacion {
+   background-color: #fee9cc;
+   display: flex;
+   padding:2px;
+   border-radius: 5px;
+   width: max-content;
+ }
+
+.resultado-body {
+   display: flex;
+   margin-top: 10px;
+}
+
+.resultado-imagen img {
+   width: 150px;
+   height: auto;
+}
+
+.resultado-info {
+   margin-left: 20px;
+}
+.resultado-info {
+   font-size: 14px;
+}
+
+
+.resultado-footer {
+   text-align: right;
+   margin-top: 10px;
+}
+
+.btn-contactar {
+   background-color: orange;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.btn-contactar:hover {
+   background-color: darkorange;
+}
+
+.resultado-precio {
+   font-weight: bold;
+   font-size: 1.125rem;
+   color: rgb(0, 0, 0);
+ 
+   font-family: evogria-italc,arial,sans-serif;
+   text-align: right;
+   margin-bottom: 63px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.tituloEstilo{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+
+
+.resultado{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 140px;
+
+
+}

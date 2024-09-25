@@ -1,0 +1,54 @@
+.category_data_perfil {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: none;
+   color: #2786c2 !important;
+   padding: 8px 16px;
+   box-sizing: border-box;
+   white-space: nowrap;
+   
+}
+
+.category_data_perfil:hover {
+   background-color: #fbca54;
+   color: white;
+   cursor: pointer;
+}
+
+.color_arrow_right {
+   color: black;
+   margin-left: auto !important; /* Ensures the icon is pushed to the right */
+}
+
+.uiAdmin_side_sub_menu {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.uiAdmin_side_sub_menu li {
+   margin: 0;
+}
+
+.uiAdmin_side_sub_menu li a {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 16px;
+   text-decoration: none;
+   color: inherit;
+   box-sizing: border-box;
+   white-space: nowrap;
+}
+
+
+.category_data_active_perfil:active{
+    background-color: white;
+    color: black !important;
+    
+}
+
+.category_data_active_perfil{
+    width: 171px !important;
+}

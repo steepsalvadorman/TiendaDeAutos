@@ -1,0 +1,193 @@
+.filtros-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 10px;
+   border-top: 1px solid #ddd;
+}
+
+.filtros-header h3 {
+   margin: 0;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.papeleraMotos,
+.flechaOcultar,
+.flechaOcultarMarca,
+.flechaOcultarPrice,
+.flechaOcultarYear,
+.flechaOcultarKilometers,
+.flechaOcultarTransmision,
+.flechaOcultarDepartment,
+.flechaOcultarCategory,
+.flechaOcultarFuel,
+.flechaOcultarTraccion,
+.flechaOcultarPublicationDate,
+.flechaOcultarCredit,
+.flechaOcultarCapacity {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.button_Motos {
+   background-color: rgb(231, 231, 231);
+   border: none;
+   pointer-events: none;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 14px;
+}
+
+.button_Motos:hover {
+   background-color: rgb(231, 231, 231);
+   border: none;
+   cursor: default;
+}
+
+.flechaOcultar,
+.flechaOcultarMarca,
+.flechaOcultarPrice,
+.flechaOcultarYear,
+.flechaOcultarKilometers,
+.flechaOcultarTransmission,
+.flechaOcultarDepartment,
+.flechaOcultarFuel,
+.flechaOcultarCategory,
+.flechaOcultarTraccion,
+.flechaOcultarPublicationDate,
+.flechaOcultarCredit,
+.flechaOcultarCapacity {
+   transition: transform 0.5s ease;
+}
+
+.flechaOcultar.rotate,
+.flechaOcultarMarca.rotate,
+.flechaOcultarPrice.rotate,
+.flechaOcultarYear.rotate,
+.flechaOcultarKilometers.rotate,
+.flechaOcultarTransmission.rotate,
+.flechaOcultarDepartment.rotate,
+.flechaOcultarFuel.rotate,
+.flechaOcultarCategory.rotate,
+.flechaOcultarTraccion.rotate,
+.flechaOcultarPublicationDate.rotate,
+.flechaOcultarCredit.rotate,
+.flechaOcultarCapacity.rotate {
+   transform: rotate(180deg);
+}
+
+.condicion {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease, margin-top 0.5s ease;
+   font-size: 12px;
+   color: #3276c5;
+   font-weight: bold;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+
+.condicion div {
+   margin-bottom: 10px;
+}
+
+.condicion.visible {
+   margin-top: 20px;
+   max-height: 1000px;
+   transition: max-height 0.5s ease, margin-top 0.5s ease;
+}
+
+.letrasChiquitas {
+   font-size: 11px;
+   color: #3276c5;
+   font-weight: bold;
+   font-style: italic;
+   margin-bottom: 20px;
+}
+
+.condicion.visible div:hover {
+   color: #3276c5;
+   cursor: pointer;
+}
+
+.input-row {
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.inputDesde,
+.inputHasta {
+   margin-top: 10px;
+   margin-right: 10px;
+   padding: 5px;
+   font-size: 14px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   width: 90px !important;
+   height: 30px;
+}
+
+.botonFiltro {
+   margin-top: 10px;
+   padding: 5px 10px;
+   font-size: 14px;
+   background-color: #000000;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   width: 45px;
+}
+
+.botonFiltro:hover {
+   background-color: #285a8b;
+}
+
+.iconoFiltro{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   color: black;
+}
+
+.categoriaStyle {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.categoriaStyle img:hover {
+   cursor: pointer;
+
+}
+
+.categoria-column {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.categoria-column figure {
+   flex: 1 0 40%;
+}
+
+
+
+.categoriaStyle img {
+   width: 60px;
+   height: 40px;
+}
+
+.spanNuevo{
+   background-color: #d0021b;
+   color: white;
+   font-size: 12px;
+   border-radius: 5px;
+   margin-left: 4px;
+   padding: 2px 6px;
+}

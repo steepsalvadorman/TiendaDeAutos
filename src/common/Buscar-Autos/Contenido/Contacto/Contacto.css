@@ -1,0 +1,16 @@
+.port-publici-img2 {
+    width: 90%;
+    height: 200px;
+}
+
+.btn-publicar {
+    margin-top: 20px;
+    width: 200px;
+    background-color: orange;
+    margin-bottom: 10px;
+    
+}
+.port-publici-backdiv-btn2 {
+  display: flex; 
+  justify-content: flex-start; 
+}

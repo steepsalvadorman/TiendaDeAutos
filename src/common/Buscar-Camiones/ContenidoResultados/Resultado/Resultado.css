@@ -1,0 +1,91 @@
+@font-face {
+    font-family: oswald;
+    src: url(/src/assets/fonts/Oswald-Regular.ttf);
+}
+
+.resultado-card {
+   border: 1px solid #e0e0e0;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   margin: 10px;
+   overflow: hidden;
+   font-family: Arial, sans-serif;
+}
+
+.resultado-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f8f8f8;
+   padding: 10px;
+   border-bottom: 1px solid #e0e0e0;
+
+}
+
+.tituloEstilo {
+   font-size: 1rem;
+   margin: 0;
+   color: #333;
+}
+
+.resultado-precio2 {
+   color: #d32f2f;
+   font-size: 1.1em;
+   font-weight: bold;
+   font-family: oswald;
+}
+
+.resultado-body {
+   display: flex;
+   padding: 10px;
+}
+
+.resultado-imagen img {
+   max-width: 150px;
+   border-radius: 4px;
+   margin-right: 15px;
+}
+
+.resultado-info {
+   flex: 1;
+}
+
+.resultado-info p {
+   margin: 5px 0;
+   color: #555;
+}
+
+.resultado-footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f8f8f8;
+   padding: 10px;
+   border-top: 1px solid #e0e0e0;
+}
+
+.btn-contactar {
+   background-color: #ff9800;
+   color: #fff;
+   border: none;
+
+   border-radius: 0px;
+   cursor: pointer;
+   font-size: 1em;
+   font-family: oswald;
+   font-weight: bold;
+}
+
+.btn-contactar:hover {
+   background-color: #e68900;
+}
+
+.resultado-info .ubicacion{
+
+   background-color: #fee9cc;
+   display: flex;
+   padding:2px;
+   border-radius: 5px;
+   width: max-content;
+}
+

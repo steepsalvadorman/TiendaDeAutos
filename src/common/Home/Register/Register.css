@@ -1,0 +1,13 @@
+.select-small {
+  width: auto !important;
+  flex: 0 1 auto !important;
+}
+
+.input-large {
+  flex: 1 1 auto !important;
+}
+
+.botonCrearCuenta{
+    background-color: orange !important;
+    margin: 0 auto;
+}

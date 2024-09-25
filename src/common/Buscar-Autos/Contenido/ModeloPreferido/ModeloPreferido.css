@@ -1,0 +1,46 @@
+.port-marcp {
+   margin-bottom: 20px;
+}
+
+.port-marcp_top {
+   margin-bottom: 20px;
+}
+
+.port-marcp_t10 {
+   font-size: 1.2em;
+}
+
+.port-marcp_t2 a {
+   text-decoration: none;
+   color: #007bff;
+}
+
+.port_modp_row {
+   margin-bottom: 10px;
+}
+
+.port_aus_arrow {
+   width: 10%;
+}
+
+.port_aus_text {
+   width: 90%;
+}
+
+.port_aus_text a {
+   text-decoration: none;
+   color: #333;
+}
+
+.port_aus_text span {
+   color: #666;
+}
+
+.port_aus_text span {
+    color: blue;
+    font-weight: bold;
+}
+
+i {
+    margin-right: 10px;
+}

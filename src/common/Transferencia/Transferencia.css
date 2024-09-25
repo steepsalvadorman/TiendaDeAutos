@@ -1,0 +1,383 @@
+.slider-home {
+    height: 380px;
+    background-image: url(/src/assets/images/bg-slider.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    position: relative;
+    z-index: 9;
+}
+.slider-content {
+    max-width: 530px;
+    width: 100%;
+}
+
+.slider-form {
+    position: relative;
+}
+
+.form-neoauto {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 88;
+    margin: -40px 0 0;
+    padding: 16px;
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 30%);
+    box-sizing: border-box;
+}
+
+.form-title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+option:disabled {
+    color: -internal-light-dark(graytext, rgb(170, 170, 170));
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-check {
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+
+.form-col-full {
+    width: 100%;
+    display: flex;
+}
+input[type="checkbox"] {
+    margin: 0;
+}
+.space-pleft-x1 {
+    padding-left: 10px;
+}
+
+.link-form {
+    color: #fa9300;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#btn-contactar {
+    font-family: evogria-italc, arial, sans-serif;
+    width: 100%;
+    height: 44px;
+    border: 0;
+    font-size: 1rem;
+    background: #fa9300;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ICONOS DEBAJO DEL FORMULARIO */
+
+.icons {
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
+
+.icons .col-4 {
+    width: 31%;
+}
+
+.ico-landing {
+    padding: 0 0 10px 0;
+}
+
+.ico-landing img {
+    width: 36px;
+    height: 36px;
+}
+.text-icons {
+    font-size: 0.875rem;
+    display: none;
+}
+
+/* BENEFICIOS TRANFERENCIAS  */
+
+.space-mbottom {
+    margin-bottom: 45px;
+}
+.space-mtop {
+    margin-top: 45px;
+}
+
+.descr-producto {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.space-ptop-x1 {
+    padding-top: 10px;
+}
+.space-ptop-x2 {
+    padding-top: 20px;
+}
+
+
+.space-pbottom-x1 {
+    padding-bottom: 10px;
+}
+
+.space-ptop-x1 {
+    padding-top: 10px;
+}
+
+.point-pasos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.number {
+    background: #f6f6f6;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    color: #fa9300;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.text-pasos {
+    width: calc(100% - 42px);
+    padding: 0 0 0 12px;
+    display: inline-block;
+    text-align: left;
+}
+.text-naranja {
+    color: #fa9300;
+}
+
+.legal-pasos {
+    font-size: 0.813rem;
+    padding: 0 0 0 42px;
+    margin-top: -10px;
+}
+
+.row-beneficios {
+    flex-wrap: wrap-reverse;
+}
+
+.space-ptop-x2 {
+    padding-top: 20px;
+}
+
+.content-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap-reverse;
+}
+.copyright {
+    padding: 10px 0;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.foot-botones {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.foot-botones a {
+    padding: 6px 0px;
+}
+
+.separador {
+    display: none;
+}
+.libro-reclamaciones {
+    display: block;
+}
+
+/* RESPONSIVE EN LA PAGINA - FORMULARIO */
+
+@media screen and (min-width: 768px) {
+    .slider-home {
+        height: 600px;
+    }
+    .slider-content {
+        max-width: 360px;
+    }
+    .logo-ibr {
+        padding-top: 20px;
+    }
+    .img-logo-ibr {
+        max-width: 130px;
+    }
+    .form-neoauto {
+        max-width: 300px;
+        position: absolute;
+        top: -530px;
+        right: 24px;
+        padding: 24px;
+    }
+    .ico-landing img {
+        width: 80px;
+        height: 80px;
+    }
+    .text-icons {
+        display: inline-block;
+    }
+    .space-mbottom {
+        margin-bottom: 60px;
+    }
+    .space-mtop {
+        margin-top: 60px;
+    }
+    .space-pleft-x2 {
+        padding-left: 24px;
+    }
+    .number {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        line-height: 48px;
+        font-size: 1.25rem;
+    }
+    .text-pasos {
+        width: calc(100% - 60px);
+        padding: 0 0 0 16px;
+    }
+    .content-footer {
+        padding: 0;
+    }
+    .copyright {
+        font-size: 0.813rem;
+        text-align: left;
+    }
+    .des-text-right {
+        text-align: right;
+    }
+    .foot-botones {
+        flex-direction: inherit;
+        justify-content: flex-end;
+    }
+    .separador {
+        padding: 0 16px;
+        color: #cdcdcd;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .slider-content {
+        max-width: 530px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .slider-content {
+        max-width: 500px;
+    }
+    h1 {
+        font-size: 3.125rem;
+    }
+    .slider-desde {
+        font-size: 1.25rem;
+    }
+    .form-neoauto {
+        max-width: 350px;
+    }
+    .copyright {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1200px;
+    }
+}

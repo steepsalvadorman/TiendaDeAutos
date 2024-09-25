@@ -1,0 +1,17 @@
+.bg-black-card {
+    background: linear-gradient(#151515, #555);
+    border-radius: 8px;
+    height: 30vh;
+    margin-right: -2%;
+    margin-left: -2%;
+}
+
+.bg-background {
+    width: 100%;
+    background: #000 center top no-repeat;
+    background-image: url(/src/assets/images/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+}

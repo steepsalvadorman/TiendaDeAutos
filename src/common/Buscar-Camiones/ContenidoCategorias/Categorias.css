@@ -1,0 +1,12 @@
+.categoria2Style {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.categoria2Style img {
+   width: 70px;
+   height: 40px;
+}

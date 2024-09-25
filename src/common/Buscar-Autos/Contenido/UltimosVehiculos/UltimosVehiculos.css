@@ -1,0 +1,51 @@
+.port_vehi_des {
+  position: relative;
+  width: 90%; /* Ajustado para que ocupe toda la columna */
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.port-marcp_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.port-marcp_vehitit {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.port-marcp_t2 a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.pagespan.container {
+  width: 100%;
+  position: relative;
+}
+
+.wrap {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.wrap::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.controls a {
+  display: inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #007bff;
+}

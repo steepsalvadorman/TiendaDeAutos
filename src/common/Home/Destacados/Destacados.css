@@ -1,0 +1,15 @@
+.card-img-top {
+    height: 200px;
+}
+.bauto {
+    font-style: italic;
+    color: black;
+    font-size: xx-large;
+    margin: 0;
+    font-family: 'swissbt', sans-serif;
+}
+
+.featured-car-card {
+    background: rgb(245, 245, 245);
+    width: 240px;
+}

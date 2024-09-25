@@ -1,0 +1,71 @@
+.tiendas-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside_01, .aside_04, .port_conce {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.port-marcp_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.port-marcp_moto {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.port-marcp_t2 a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.port_conce_row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img_marcp {
+    width: 147px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.aside_04 img {
+    width: 100%;
+    height: auto;
+}
+
+.asidediv_btn4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonsty {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsty:hover {
+    background-color: #0056b3;
+}
+
+.santander_img {
+    width: 100%;
+    height: auto;
+}

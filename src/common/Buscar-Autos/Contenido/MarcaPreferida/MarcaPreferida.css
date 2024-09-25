@@ -1,0 +1,52 @@
+.port-marcp {
+    max-width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.port-marcp_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.port-marcp_t10 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.port-marcp_t2 a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.port-marcp_t2 a:hover {
+    text-decoration: underline;
+}
+
+.port-marcp-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.port-marcp-imgau {
+    display: block;
+    width: 90px;
+    height: 68px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.port-marcp-imgau img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

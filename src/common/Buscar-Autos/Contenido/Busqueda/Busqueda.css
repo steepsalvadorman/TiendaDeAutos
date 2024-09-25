@@ -1,0 +1,96 @@
+.contenedor {
+   max-width: 550px;
+   padding: 20px;
+   background-color: #ff7f0e;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   color: #fff;
+}
+
+.port-bqab-tit {
+   text-align: center;
+   font-size: 24px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+.motos_div_ab {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.motos-ab {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+.motos_divs,
+.motos_divs2 {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+select,
+input[type="text"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+span.span_price {
+   display: inline-block;
+   padding-top: 10px;
+   color: #fff;
+}
+
+.btndiv2 {
+   text-align: center;
+}
+
+.btn:hover {
+   background-color: orange;
+   color: black;
+}
+
+.motos_ma {
+   margin-top: 20px;
+   width: 150px;
+}
+
+.motos_mo {
+   margin-top: 20px;
+   width: 200px;
+}
+
+.motos_anio {
+   margin-top: 27px;
+}
+
+.motos_precio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btndiv2 {
+    margin-top: 20px;
+}
+
+.span_price {
+    font-family:"calibri" ;
+    font-weight: bold;
+}
+
+
+

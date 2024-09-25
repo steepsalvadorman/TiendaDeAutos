@@ -1,0 +1,490 @@
+.sidebar,
+.content {
+    max-width: 500px;
+    padding-top: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a,
+.uiAdmin a,
+.uiAdmin a:link,
+.uiAdmin a:active {
+    text-decoration: none;
+    color: #2786c2;
+}
+
+label,
+form dt label {
+    display: block;
+    margin-top: 20px;
+}
+
+.port-wrap-main {
+    width: 970px;
+    margin: 0 auto;
+    background: #ffffff0c;
+}
+
+.sidebar-menu {
+    width: 200px;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+
+#content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.fix_flex:before,
+.fix_flex:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.Select{
+    border: solid 1px #ccc;
+    border-bottom: none;
+    background: #ffffff;
+    color: #000;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+
+.uiAdmin_sidebar li a,
+.uiAdmin_singletabs li.Select a {
+    border-bottom: solid 1px #fff;
+    position: relative;
+}
+
+.uiAdmin_singletabs {
+    height: 40px;
+    margin-bottom: -7px;
+    padding-left: 10px;
+    list-style: none; 
+    display: flex; 
+    justify-content: flex-start; 
+    padding: 0;
+}
+
+.uiAdmin_singletabs li,
+.uiAdmin_singletabs li.selected {
+    float: none; 
+    line-height: 29px;
+    font-family: Arial !important;
+    font-size: 12px;
+    margin-right: 2px;
+    list-style: none; 
+}
+
+.uiAdmin_singletabs li.Select a {
+    border: solid 1px #ccc;
+    border-bottom: none;
+    background: #ffffff;
+    color: #000;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    display: block; 
+}
+
+.uiAdmin_singletabs li a {
+    background: #f4f4ee;
+    height: 34px;
+    line-height: 31px;
+    padding: 0 15px;
+    color: #666;
+    border-bottom: none;
+    display: block;
+    text-align: center;
+}
+
+
+.uiAdmin {
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #f4f4ee;
+    padding: 20px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+.uiAdmin_sidebar {
+    font-size: 12px;
+    display: block;
+    width: 160px;
+    padding-top: 30px;
+}
+
+.uiAdmin.layout_common .col1 {
+    float: left;
+    width: 160px;
+}
+
+.uiAdmin.layout_common .col2 {
+    padding-left: 160px;
+    width: 104% !important;
+}
+
+.cuenta_active a,
+.perfil_active a {
+    border: solid 1px #ccc;
+    border-bottom: none;
+    background: #f4f4ee;
+    color: #666;
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    box-shadow: none;
+}
+
+.uiAdmin_sidebar li ul.uiAdmin_side_sub_menu {
+    padding: 10px 0;
+    margin: 0 0 1.5em 20px;
+}
+
+.uiAdmin_sidebar ul.uiAdmin_side_sub_menu li.selected a {
+    width: 126px;
+    font-weight: normal;
+}
+
+.uiAdmin_sidebar li a {
+    line-height: 2.5em;
+    border: solid 1px #ccc;
+    display: block;
+    width: 151px;
+    padding: 0 7px;
+    background: #e6e6dc;
+    border-radius: 2px 0 0 2px;
+}
+
+.uiAdmin_content_main_inner {
+    background: #fff;
+    border: solid 1px #ccc;
+    padding: 20px;
+    height: auto !important;
+    min-height: 420px;
+    height: 340px;
+}
+
+.mbm {
+    margin-bottom: 10px !important;
+}
+
+.w100,
+.dlgrid .w100 dl {
+    float: left !important;
+    width: 100% !important;
+}
+
+.dlgrid dl {
+    float: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.dlgrid dl.center {
+    margin: 0 auto 15px;
+    float: none;
+}
+
+.dlinline dl.dt40 dt,
+.dlinline dl.dd40 dd,
+.dlinline dl.dt20 dt,
+.dlinline dl.dd20 dd {
+    width: 40%;
+}
+
+.dlgrid .dlinline dl dt,
+.dlgrid .dlinline dl dd {
+    float: left;
+}
+
+.clearfix {
+    display: block;
+}
+
+label.lgr {
+    color: gray;
+    padding-right: 1em;
+    text-align: right;
+    margin-top: 0;
+}
+
+.dlgrid div.w100 {
+    height: 60px;
+}
+
+.nbm{
+    font-family: "swissbt" !important ;
+    color: #484848;
+    font-size: 2em;
+    margin: 0 0 0.2em 0;
+    padding: 0;
+    font-style: italic !important;
+}
+
+@font-face {
+    font-family: "swissbt";
+    src: url(../../../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+.nbm_avisos{
+    border-bottom: solid 1px #ccc;
+    font-family: "swissbt" !important ;
+    color: #484848;
+    font-style: italic !important;
+    font-size: 2em;
+    margin: 0 0 0.2em 0;
+    padding: 0;
+}
+
+.uiAdmin_content_main{
+    margin-left: 10px;
+}
+
+.nbm_description{
+    font: 14px / 15px 'calibri';
+    padding-bottom: 20px;
+}
+
+.label_clave{
+    font-size: 15px;
+    float: left;
+    line-height: 15px;
+    padding-left: 10px;
+    position: relative;
+    width: 250px;
+}
+
+.label_empresa{
+    font-size: 14px;
+    float: left;
+    line-height: 15px;
+    padding-left: 10px;
+    position: relative;
+    width: 150px;
+}
+
+.textbox-container {
+    display: block;
+    flex-direction:row;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    place-items: center;
+}
+
+input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #b8b8b8;
+    border-radius: 4px;
+    color: #333;
+    font-family: 'calibri';
+    font-size: 14px;
+    height: 19px;
+    line-height: 19px;
+    padding: 2px 5px;
+    width: 170px; 
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+input[type="text"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    background-color: #00408a;
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.btn2 {
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 16px;    
+}
+
+.label-rojo {
+    color: red;
+    display: inline;
+}
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 175px;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+}
+
+.checkbox-avanzado {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.checkbox-container:hover .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-avanzado:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-avanzado:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.separacion{
+    display: block !important;
+    height: 1px;
+    overflow: hidden;
+    background: #CCC;
+    border: 0 none;
+    margin: 2em 0;
+}
+
+.table{
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border: solid 1px #ddd;
+}
+
+.uiAdmin_tableToolBar {
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text2"] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 357px;
+    box-sizing: border-box;
+    height: 30px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 4px 0 0;
+}
+
+input[type="text2"]::placeholder {
+    color: #999;
+}
+
+input[type="date"] {
+    width: 130px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 30px;
+}
+input[type="date"]::placeholder {
+    color: #999;
+}
+
+.btn3 {
+    padding: 4px 20px;
+    font-size: 16px;
+    color: #2786c2;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #2786c2;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+    margin-right: 20px;
+}
+
+.btn4 {
+    padding: 4px 4px;
+    font-size: 16px;
+    color: #fcfcfc;
+    background-color: #ff9430;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: right;
+    margin-right: 80px;
+}

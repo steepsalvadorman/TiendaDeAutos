@@ -1,0 +1,77 @@
+.btn-vender {
+   background-color: rgb(210, 145, 49) !important;
+   border: 0 !important;
+   border-radius: 10px !important;
+   padding: 8px 16px !important;
+}
+
+.btn-vender:hover {
+   background-color: rgb(255, 136, 0) !important;
+}
+
+.btn-categoria {
+   background-color: black !important;
+   color: white !important;
+   transition: background-color 0.3s ease, color 0.3s ease !important;
+   border: none !important;
+}
+
+.btn-categoria:hover {
+   background-color: white !important;
+   color: black !important;
+}
+
+.btn-outline-success:hover {
+   background-color: #198754 !important;
+   color: white !important;
+}
+
+.nav-item {
+  list-style: none; /* Elimina los puntos de lista si es necesario */
+  position: relative; /* Necesario para posicionar el menú desplegable */
+}
+
+.nav-link {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el texto y el ícono */
+  color: white; /* Aplica el color blanco al texto */
+  text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+}
+
+.filtroFlechaAbajo {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el ícono */
+  padding-left: 10px; /* Empuja el ícono hacia el lado derecho */
+  cursor: pointer;
+}
+
+.flechaDespliegue {
+  font-size: 16px; /* Ajusta el tamaño del ícono según sea necesario */
+  color: white; /* Asegúrate de que el ícono sea blanco */
+}
+
+.dropdown-menu {
+  display: block; /* Muestra el menú cuando `isOpen` es verdadero */
+  position: absolute; /* Posiciona el menú relativo al contenedor padre */
+  top: 100%; /* Coloca el menú justo debajo del contenedor padre */
+  right: 0; /* Alinea el menú al borde derecho del contenedor padre */
+  background-color: #333; /* Ajusta el color de fondo del menú */
+  border-radius: 4px; /* Añade bordes redondeados si lo deseas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Añade una sombra para dar efecto de profundidad */
+  z-index: 1000; /* Asegúrate de que el menú esté por encima de otros elementos */
+}
+
+.dropdown-menu li {
+  list-style: none; /* Elimina los puntos de lista */
+}
+
+.dropdown-menu a {
+  display: block; /* Hace que cada opción del menú ocupe toda la línea */
+  padding: 10px 20px; /* Añade espaciado a las opciones */
+  color: white; /* Color del texto de las opciones */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.dropdown-menu a:hover {
+  background-color: #555; /* Cambia el color de fondo al pasar el cursor sobre una opción */
+}

@@ -1,0 +1,141 @@
+.top-gec {
+  background-color: #f1c40f;
+  padding: 10px 0;
+}
+
+.top-gec .w980 {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.top-gec .logo-gec {
+  background: url('https://cds.neoauto.pe/neoauto2/img/logo-gec.png') no-repeat;
+  width: 100px;
+  height: 40px;
+  display: block;
+}
+
+.top-gec h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.neov3_search_port-header2 {
+  background-color: #fff;
+  padding: 10px 0;
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.neov3_search_port-header2 form {
+  display: flex;
+  align-items: center;
+}
+
+.neov3_search_port-header2 select,
+.neov3_search_port-header2 input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.neov3_search_port-header2 .btn {
+  padding: 5px 10px;
+}
+
+.social-redesNeo {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-redesNeo li {
+  margin-right: 10px;
+}
+
+.social-links {
+  display: flexbox;
+  align-items: center;
+  flex-direction: row;
+}
+
+.social-links a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #000;
+  padding: 10px 0;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+  font-size: 18px !important;
+  margin-right: 20px;
+}
+
+.navbar .nav-item .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar .position-absolute {
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+}
+
+.port-wrap-header2 {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+iframe {
+    background-color: transparent;
+}
+
+
+.nuevos_y_usados {
+  width: 160px;
+}
+
+.twitter_follow_button {
+  position: relative;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 12px 1px 12px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.facebook_like_button{
+  position: relative;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 12px 1px 12px;
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 9999px;
+    font-weight: 500;
+    cursor: pointer;
+}

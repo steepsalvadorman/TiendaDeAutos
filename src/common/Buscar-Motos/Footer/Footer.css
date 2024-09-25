@@ -1,0 +1,126 @@
+.s-footer {
+    background: url(/src/assets/images/Moto/motosventa/Footer/descarga.png) repeat-x;
+    background-color: black;
+    padding-top: 4vh;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+.s-footer2 {
+    margin-top: 20px;
+    background-color: black;
+    padding-top: 4vh;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+
+
+.s-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 1;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tituloFooterMotos, .tituloFooterRedes {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: orange;
+}
+
+.txtGrisMotos {
+    color: #999;
+    margin: 5px 0;
+}
+
+.txtBlancoMotos {
+    color: #fff;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.txtBlancoMotos:hover {
+    color: orange;
+    
+}
+
+.iconoHorizontal {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.iconoHorizontal img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.iconoHorizontal img:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+.divIzquierda {
+  float: left;
+  width: 50%;
+}
+
+.divDerecha {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.txtBlancoMotos {
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.imgLibroReclamacionesDerecha {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.txtBlancoMotosTitulo{
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+}

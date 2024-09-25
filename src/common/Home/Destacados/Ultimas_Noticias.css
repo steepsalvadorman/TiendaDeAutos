@@ -1,0 +1,71 @@
+.section.blog {
+   padding: 2rem 0;
+   background-color: #f5f5f5;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 0 1rem;
+}
+
+.h2.section-title {
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 1.5rem;
+   color: #333;
+}
+
+.blog-list {
+   display: flex;
+   overflow-x: auto;
+   gap: 1rem;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   scrollbar-width: thin; 
+   scrollbar-color: #888 #e0e0e0; 
+}
+
+/* For WebKit-based browsers */
+.blog-list::-webkit-scrollbar {
+   height: 8px;
+}
+
+.blog-list::-webkit-scrollbar-thumb {
+   background-color: #888;
+   border-radius: 4px;
+}
+
+.blog-list::-webkit-scrollbar-track {
+   background-color: #e0e0e0;
+}
+
+.blog-card {
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   width: 300px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-banner img {
+   width: 100%;
+   display: block;
+}
+
+.card-content {
+   padding: 1rem;
+}
+
+.card-description {
+   font-size: 1rem;
+   color: #555;
+   text-align: center;
+}
