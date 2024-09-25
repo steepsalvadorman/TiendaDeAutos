@@ -29,7 +29,7 @@ export const Resultados = () => {
          descripcion:
             "Mantenimientos Reciente, Llatas Nuevas, Listas Para Usar!",
          imagen:
-            "/src/assets/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
+            "/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
          esNueva: false,
       },
       {
@@ -41,7 +41,7 @@ export const Resultados = () => {
          descripcion:
             "Mantenimientos Reciente, Llatas Nuevas, Listas Para Usar!",
          imagen:
-            "/src/assets/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
+            "/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
          esNueva: false,
       },
       {
@@ -52,7 +52,7 @@ export const Resultados = () => {
          ubicacion: "Lima, Lima",
          descripcion: "Vendo Camion Dong Feng",
          imagen:
-            "/src/assets/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
+            "/images/Camion/BuscarCamiones/buscarcamionejemplo.webp",
          esNueva: true,
       },
       // Otros resultados...

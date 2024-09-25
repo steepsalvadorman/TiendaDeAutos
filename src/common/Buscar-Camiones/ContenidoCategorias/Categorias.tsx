@@ -75,7 +75,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Filtros</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/1.svg"
+               src="/icons/BuscarMotos/1.svg"
                className="papeleraMotos"
                alt="Borrar filtros"
             />
@@ -88,7 +88,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Condición</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultar ${isConditionVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleConditionVisibility}
@@ -103,7 +103,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Marca</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarMarca ${
                   isBrandVisible ? "rotate" : ""
                }`}
@@ -130,7 +130,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Precio</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarPrice ${
                   isPriceVisible ? "rotate" : ""
                }`}
@@ -150,7 +150,7 @@ export const Categorias = () => {
                <input className="inputHasta" type="text" placeholder="Hasta" />
                <button className="botonFiltro">
                   <img
-                     src="/src/assets/icons/BuscarMotos/4.svg"
+                     src="/icons/BuscarMotos/4.svg"
                      alt="Filtrar"
                      className="iconoFiltro"
                   />
@@ -160,7 +160,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Credito Vehicular</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarCredit ${
                   isCreditVisible ? "rotate" : ""
                }`}
@@ -176,7 +176,7 @@ export const Categorias = () => {
                <input className="inputHasta" type="text" placeholder="Hasta" />
                <button className="botonFiltro">
                   <img
-                     src="/src/assets/icons/BuscarMotos/4.svg"
+                     src="/icons/BuscarMotos/4.svg"
                      alt="Filtrar"
                      className="iconoFiltro"
                   />
@@ -186,7 +186,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Año</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarYear ${isYearVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleYearVisibility}
@@ -202,7 +202,7 @@ export const Categorias = () => {
                <input className="inputHasta" type="text" placeholder="Hasta" />
                <button className="botonFiltro">
                   <img
-                     src="/src/assets/icons/BuscarMotos/4.svg"
+                     src="/icons/BuscarMotos/4.svg"
                      alt="Filtrar"
                      className="iconoFiltro"
                   />
@@ -213,7 +213,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Kilómetros</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarKilometers ${
                   isKilometersVisible ? "rotate" : ""
                }`}
@@ -231,7 +231,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Capacidad de Carga</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarCapacity ${
                   isCapacityVisible ? "rotate" : ""
                }`}
@@ -249,7 +249,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Transmisión</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarTransmision ${
                   isTransmissionVisible ? "rotate" : ""
                }`}
@@ -265,7 +265,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Departamento</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarDepartment ${
                   isDepartmentVisible ? "rotate" : ""
                }`}
@@ -290,7 +290,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Categoría</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarCategory ${
                   isCategoryVisible ? "rotate" : ""
                }`}
@@ -301,21 +301,21 @@ export const Categorias = () => {
          <div className={`condicion ${isCategoryVisible ? "visible" : ""}`}>
             <div className="categoria-column">
                <figure className="categoria2Style">
-                  <img src="/src/assets/images/Camion/CategoriaCamion/camion.png"></img>
+                  <img src="/images/Camion/CategoriaCamion/camion.png"></img>
                   <figcaption>Camion</figcaption>
                </figure>
                <figure className="categoria2Style">
-                  <img src="/src/assets/images/Camion/CategoriaCamion/otros-camiones.png"></img>
+                  <img src="/images/Camion/CategoriaCamion/otros-camiones.png"></img>
                   <figcaption>Otros</figcaption>
                </figure>
             </div>
             <div className="categoria-column">
                <figure className="categoria2Style">
-                  <img src="/src/assets/images/Camion/CategoriaCamion/bus.png"></img>
+                  <img src="/images/Camion/CategoriaCamion/bus.png"></img>
                   <figcaption>Bus</figcaption>
                </figure>
                <figure className="categoria2Style">
-                  <img src="/src/assets/images/Camion/CategoriaCamion/maquinaria.png"></img>
+                  <img src="/images/Camion/CategoriaCamion/maquinaria.png"></img>
                   <figcaption>Maquinaria</figcaption>
                </figure>
             </div>
@@ -324,7 +324,7 @@ export const Categorias = () => {
          <div className="filtros-header">
             <h3>Combustible</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarFuel ${isFuelVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleFuelVisibility}
@@ -347,7 +347,7 @@ export const Categorias = () => {
                </h3>
             </div>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarTraccion ${
                   isTraccionVisible ? "rotate" : ""
                }`}
@@ -368,7 +368,7 @@ export const Categorias = () => {
                </h3>
             </div>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarPublicationDate ${
                   isPublicationDateVisible ? "rotate" : ""
                }`}

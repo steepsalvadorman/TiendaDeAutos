@@ -66,7 +66,7 @@ export const Footer = () => {
                <a href="http://elcomercio.pe" className="mx-2">
                   <img
                      className="small-logo"
-                     src="/src/assets/images/elcomercio.png"
+                     src="/images/elcomercio.png"
                      alt="El Comercio"
                   ></img>
                </a>

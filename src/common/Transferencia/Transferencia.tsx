@@ -231,7 +231,7 @@ export const TransferenciaContent3 = () => {
           <div className="col-6">
             <img
               className="w-100"
-              src="/src/assets/images/pasos-transferencia-vehicular.webp"
+              src="/images/pasos-transferencia-vehicular.webp"
             />
           </div>
           <div className="col-6 space-pleft-x2 space-ptop-x2">
@@ -310,7 +310,7 @@ export const TransferenciaContent4 = () => {
             </ul>
           </div>
           <div className="col-6">
-            <img className="w-100" src="/src/assets/images/beneficios.webp" />
+            <img className="w-100" src="/images/beneficios.webp" />
           </div>
         </div>
       </div>
@@ -324,7 +324,7 @@ export const TransferenciaFooter = () => {
         <div className="row content-footer">
           <div className="col-8 des-text-right foot-botones">
             <a href="/">
-                <img src="/src/assets/images/Logo1.webp" alt="Logo" />
+                <img src="/images/Logo1.webp" alt="Logo" />
             </a>
             <a
               href="{{route('Cokkie')}}"
@@ -361,7 +361,7 @@ export const TransferenciaFooter = () => {
             >
               <img
                 className="libro-reclamaciones"
-                src="/src/assets/images/rclamaciones.webp"
+                src="/images/rclamaciones.webp"
                 alt="Libro de Reclamaciones"
                 title="Libro de Reclamaciones"
               />

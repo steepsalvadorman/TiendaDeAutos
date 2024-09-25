@@ -63,7 +63,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Filtros</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/1.svg"
+               src="/icons/BuscarMotos/1.svg"
                className="papeleraMotos"
                alt="Borrar filtros"
             />
@@ -76,7 +76,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Condición</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultar ${isConditionVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleConditionVisibility}
@@ -91,7 +91,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Marca</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarMarca ${
                   isBrandVisible ? "rotate" : ""
                }`}
@@ -118,7 +118,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Precio</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarPrice ${
                   isPriceVisible ? "rotate" : ""
                }`}
@@ -137,7 +137,7 @@ export const Categorias: React.FC = () => {
                <input className="inputHasta" type="text" placeholder="Hasta" />
                <button className="botonFiltro">
                   <img
-                     src="/src/assets/icons/BuscarMotos/4.svg"
+                     src="/icons/BuscarMotos/4.svg"
                      alt="Filtrar"
                      className="iconoFiltro"
                   />
@@ -147,7 +147,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Año</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarYear ${isYearVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleYearVisibility}
@@ -163,7 +163,7 @@ export const Categorias: React.FC = () => {
                <input className="inputHasta" type="text" placeholder="Hasta" />
                <button className="botonFiltro">
                   <img
-                     src="/src/assets/icons/BuscarMotos/4.svg"
+                     src="/icons/BuscarMotos/4.svg"
                      alt="Filtrar"
                      className="iconoFiltro"
                   />
@@ -173,7 +173,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Kilómetros</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarKilometers ${
                   isKilometersVisible ? "rotate" : ""
                }`}
@@ -190,7 +190,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Transmisión</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarTransmision ${
                   isTransmissionVisible ? "rotate" : ""
                }`}
@@ -206,7 +206,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Departamento</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarDepartment ${
                   isDepartmentVisible ? "rotate" : ""
                }`}
@@ -231,7 +231,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Categoría</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarCategory ${
                   isCategoryVisible ? "rotate" : ""
                }`}
@@ -242,37 +242,37 @@ export const Categorias: React.FC = () => {
          <div className={`condicion ${isCategoryVisible ? "visible" : ""}`}>
             <div className="categoria-column">
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/deportiva.png"></img>
+                  <img src="/images/Moto/categorias/deportiva.png"></img>
                   <figcaption>Deportiva</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/de-calle.png"></img>
+                  <img src="/images/Moto/categorias/de-calle.png"></img>
                   <figcaption>De calle</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/otros-motos.png"></img>
+                  <img src="/images/Moto/categorias/otros-motos.png"></img>
                   <figcaption>Otros</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/cross-enduro.png"></img>
+                  <img src="/images/Moto/categorias/cross-enduro.png"></img>
                   <figcaption>Cross/Enduro</figcaption>
                </figure>
             </div>
             <div className="categoria-column">
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/scooter.png"></img>
+                  <img src="/images/Moto/categorias/scooter.png"></img>
                   <figcaption>Scooter</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/cuatrimoto.png"></img>
+                  <img src="/images/Moto/categorias/cuatrimoto.png"></img>
                   <figcaption>Cuatrimoto</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/custom.png"></img>
+                  <img src="/images/Moto/categorias/custom.png"></img>
                   <figcaption>Custom</figcaption>
                </figure>
                <figure className="categoriaStyle">
-                  <img src="/src/assets/images/Moto/categorias/bicimoto.png"></img>
+                  <img src="/images/Moto/categorias/bicimoto.png"></img>
                   <figcaption>Bicimoto</figcaption>
                </figure>
             </div>
@@ -281,7 +281,7 @@ export const Categorias: React.FC = () => {
          <div className="filtros-header">
             <h3>Combustible</h3>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarFuel ${isFuelVisible ? "rotate" : ""}`}
                alt="Ocultar/Mostrar filtros"
                onClick={toggleFuelVisibility}
@@ -302,7 +302,7 @@ export const Categorias: React.FC = () => {
                </h3>
             </div>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarTraccion ${
                   isTraccionVisible ? "rotate" : ""
                }`}
@@ -323,7 +323,7 @@ export const Categorias: React.FC = () => {
                </h3>
             </div>
             <img
-               src="/src/assets/icons/BuscarMotos/3.svg"
+               src="/icons/BuscarMotos/3.svg"
                className={`flechaOcultarPublicationDate ${
                   isPublicationDateVisible ? "rotate" : ""
                }`}

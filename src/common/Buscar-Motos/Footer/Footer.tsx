@@ -7,7 +7,7 @@ export const Footer = () => {
          <footer className="s-footer">
             <div className="columna">
                <img
-                  src="/src/assets/images/Moto/Footer/1.png"
+                  src="/images/Moto/Footer/1.png"
                   className="icon"
                ></img>
                <p className="tituloFooterMotos">Acerca De TUAUTOpe</p>
@@ -46,9 +46,9 @@ export const Footer = () => {
                <p className="txtBlancoMotos">Preguntas Frecuentes</p>
                <p className="txtBlancoMotos">Ayuda en Linea</p>
                <div className="iconoHorizontal">
-                  <img src="/src/assets/images/Moto/Footer/youtube.png"></img>
-                  <img src="/src/assets/images/Moto/Footer/twitter.png"></img>
-                  <img src="/src/assets/images/Moto/Footer/facebook.png"></img>
+                  <img src="/images/Moto/Footer/youtube.png"></img>
+                  <img src="/images/Moto/Footer/twitter.png"></img>
+                  <img src="/images/Moto/Footer/facebook.png"></img>
                </div>
             </div>
          </footer>
@@ -62,7 +62,7 @@ export const Footer = () => {
                <p className="txtBlancoMotos">Términos De Uso |</p>
                <p className="txtBlancoMotos">Politica De Privacidad |</p>
                <img
-                  src="/src/assets/images/Moto/Footer/librodereclamaciones.png"
+                  src="/images/Moto/Footer/librodereclamaciones.png"
                   alt="Libro de Reclamaciones"
                   className="imgLibroReclamacionesDerecha"
                />

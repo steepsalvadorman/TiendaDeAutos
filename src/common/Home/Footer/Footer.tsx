@@ -1,10 +1,10 @@
 import "./Footer.css";
-import facebookLogo from "/src/assets/icons/facebook.svg";
-import twitterLogo from "/src/assets/icons/twitter.webp";
-import instagramLogo from "/src/assets/icons/instagram.webp";
-import linkedinLogo from "/src/assets/icons/linkedin.svg";
-import tiktokLogo from "/src/assets/icons/tik-tok.webp";
-import youtubeLogo from "/src/assets/icons/youtube.webp";
+import facebookLogo from "/icons/facebook.svg";
+import twitterLogo from "/icons/twitter.webp";
+import instagramLogo from "/icons/instagram.webp";
+import linkedinLogo from "/icons/linkedin.svg";
+import tiktokLogo from "/icons/tik-tok.webp";
+import youtubeLogo from "/icons/youtube.webp";
 
 export const Footer = () => {
    return (

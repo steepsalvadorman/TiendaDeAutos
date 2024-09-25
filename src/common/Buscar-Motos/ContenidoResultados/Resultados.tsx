@@ -28,7 +28,7 @@ export const Resultados = () => {
          ubicacion: "Lima, Lima",
          descripcion: "MOTO CERO KILÓMETROS.",
          kilometraje: "0 kms",
-         imagen: "/src/assets/images/Moto/motosventa/1.webp",
+         imagen: "/images/Moto/motosventa/1.webp",
          esNueva: true,
       },
       {
@@ -38,7 +38,7 @@ export const Resultados = () => {
          ubicacion: "Lima, Lima",
          descripcion: "MOTO NUEVA - PRECIO DE OFERTA",
          kilometraje: "985 kms",
-         imagen: "/src/assets/images/Moto/motosventa/2.webp",
+         imagen: "/images/Moto/motosventa/2.webp",
          esNueva: true,
       },
       {
@@ -48,7 +48,7 @@ export const Resultados = () => {
          ubicacion: "Lima, Lima",
          descripcion: "MOTO NUEVA - PRECIO DE OFERTA",
          kilometraje: "750 kms",
-         imagen: "/src/assets/images/Moto/motosventa/3.webp",
+         imagen: "/images/Moto/motosventa/3.webp",
          esNueva: true,
       },
       // Otros resultados...
