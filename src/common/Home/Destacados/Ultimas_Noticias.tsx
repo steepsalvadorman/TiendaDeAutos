@@ -46,27 +46,27 @@ export const UltimasNoticias = () => {
 const blogData = [
    {
       link: "#",
-      image: "/src/assets/images/Noticia/reduce.webp",
+      image: "/images/Noticia/reduce.webp",
       alt: "Opening of new offices of the company",
       description:
          " Abril 5,2023 Semana Santa 2023: 5 destinos ideales para visitar el próximo fin de semana largo",
    },
    {
       link: "#",
-      image: "/src/assets/images/Noticia/derrapar.webp",
+      image: "/images/Noticia/derrapar.webp",
       alt: "What cars are most vulnerable",
       description:
          "Marzo 31,2023 Drifting: Caracteristica de un auto para derrapar.",
    },
    {
       link: "#",
-      image: "/src/assets/images/Noticia/destinos.webp",
+      image: "/images/Noticia/destinos.webp",
       alt: "Statistics showed which average age",
       description: "Descripcion para el Blog 3",
    },
    {
       link: "#",
-      image: "/src/assets/images/Noticia/destinos.webp",
+      image: "/images/Noticia/destinos.webp",
       alt: "Statistics showed which average age",
       description: "Descripcion para el Blog 3",
    }

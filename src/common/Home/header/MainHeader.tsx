@@ -40,7 +40,7 @@ export const MainHeader = () => {
          <nav className="navbar navbar-expand-lg p-2 bg-black mw-100">
             <div className="container">
                <a className="navbar-brand" href="/">
-                  <img src="/src/assets/images/logo3.webp" alt="Logo" />
+                  <img src="/images/logo3.webp" alt="Logo" />
                </a>
                <button
                   className="navbar-toggler bg-white"

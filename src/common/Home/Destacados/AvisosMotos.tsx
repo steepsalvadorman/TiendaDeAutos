@@ -2,7 +2,7 @@ export const AvisosMotos = () => {
    const motorcycles = [
       {
          id: 1,
-         imgSrc: "/src/assets/images/Moto/bmw.webp",
+         imgSrc: "/images/Moto/bmw.webp",
          alt: "Ssenda Matrix",
          year: 2022,
          people: 1,
@@ -15,7 +15,7 @@ export const AvisosMotos = () => {
       },
       {
          id: 2,
-         imgSrc: "/src/assets/images/Moto/ducati.webp",
+         imgSrc: "/images/Moto/ducati.webp",
          alt: "Ducati",
          year: 2018,
          people: 1,
@@ -28,7 +28,7 @@ export const AvisosMotos = () => {
       },
       {
          id: 3,
-         imgSrc: "/src/assets/images/Moto/pulsar.webp",
+         imgSrc: "/images/Moto/pulsar.webp",
          alt: "Pulsar Rs200",
          year: 2022,
          people: 1,
@@ -41,7 +41,7 @@ export const AvisosMotos = () => {
       },
       {
          id: 4,
-         imgSrc: "/src/assets/images/Moto/ssenda.webp",
+         imgSrc: "/images/Moto/ssenda.webp",
          alt: "Ct 125",
          year: 2022,
          people: 1,

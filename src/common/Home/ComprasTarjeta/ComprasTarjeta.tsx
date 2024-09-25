@@ -5,21 +5,21 @@ export const ComprasTarjeta = () => {
         <p className="text pt-1">Compras 100% seguras con: &nbsp;</p>
         <a href="https://pagoefectivo.pe/">
            <img
-              src="/src/assets/images/pago.png"
+              src="/images/pago.png"
               alt="Logo de la compañia"
               className="icon-pago"
            />
         </a>
         <a href="https://www.visa.com.pe/">
            <img
-              src="/src/assets/images/visa.png"
+              src="/images/visa.png"
               alt="Logo de la compañia"
               className="icon-pago"
            />
         </a>
         <a href="https://www.mastercard.com.pe/es-pe.html">
            <img
-              src="/src/assets/images/mastercad.png"
+              src="/images/mastercad.png"
               alt="Logo de la compañia"
               className="icon-pago"
            />

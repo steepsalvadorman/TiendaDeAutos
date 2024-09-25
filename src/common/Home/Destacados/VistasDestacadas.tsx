@@ -3,7 +3,7 @@ import './Destacados.css';
 const featuredCars = [
   {
     id: 1,
-    image: '/src/assets/images/Carros/Toyota.webp',
+    image: '/images/Carros/Toyota.webp',
     alt: 'Honda Pilot',
     year: 2013,
     people: '4 People',
@@ -14,7 +14,7 @@ const featuredCars = [
   },
   {
     id: 2,
-    image: '/src/assets/images/Carros/Toyota.webp',
+    image: '/images/Carros/Toyota.webp',
     alt: 'Mercedes Benz',
     year: 2020,
     people: '4 People',
@@ -25,7 +25,7 @@ const featuredCars = [
   },
   {
     id: 3,
-    image: '/src/assets/images/Carros/Toyota.webp',
+    image: '/images/Carros/Toyota.webp',
     alt: 'Mini Coope',
     year: 2017,
     people: '4 People',
@@ -36,7 +36,7 @@ const featuredCars = [
   },
   {
     id: 4,
-    image: '/src/assets/images/Carros/Toyota.webp',
+    image: '/images/Carros/Toyota.webp',
     alt: 'Citroen Berlingo',
     year: 2018,
     people: '4 People',

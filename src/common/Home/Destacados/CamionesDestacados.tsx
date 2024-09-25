@@ -2,7 +2,7 @@ import './AvisosCamiones.css';
 const featuredCamiones = [
   {
     id: 1,
-    image: '/src/assets/images/Camion/hino.webp',
+    image: '/images/Camion/hino.webp',
     alt: 'Hino',
     year: 2023,
     people: '4 People',
@@ -13,7 +13,7 @@ const featuredCamiones = [
   },
   {
     id: 2,
-    image: '/src/assets/images/Camion/Internacional.webp',
+    image: '/images/Camion/Internacional.webp',
     alt: 'International 7600',
     year: 2008,
     people: '4 People',
@@ -24,7 +24,7 @@ const featuredCamiones = [
   },
   {
     id: 3,
-    image: '/src/assets/images/Camion/hyundai.webp',
+    image: '/images/Camion/hyundai.webp',
     alt: 'Hyundai Hd',
     year: 2017,
     people: '4 People',
@@ -35,7 +35,7 @@ const featuredCamiones = [
   },
   {
     id: 4,
-    image: '/src/assets/images/Camion/kia.webp',
+    image: '/images/Camion/kia.webp',
     alt: 'Kia K2700',
     year: 2013,
     people: '4 People',

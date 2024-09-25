@@ -11,7 +11,7 @@ export const Carousel = () => {
       >
          <div className="carousel-inner">
             <CarouselItem
-               src="/src/assets/images/bg-slider.webp"
+               src="/images/bg-slider.webp"
                alt="Producto 1"
                title="Producto 1"
                description="Descripción breve del producto 1."
