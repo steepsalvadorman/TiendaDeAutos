@@ -138,7 +138,7 @@ export const Footer = () => {
                      <li className="mt-3">
                         <a href="#">
                            <img
-                              src="/src/assets/images/libro-reclamaciones.webp"
+                              src="/images/libro-reclamaciones.webp"
                               alt="Libro de Reclamaciones"
                            />
                         </a>
